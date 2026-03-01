@@ -1,0 +1,41 @@
+{
+  "name": "BizLedger Pro",
+  "short_name": "BizLedger",
+  "description": "Business Management - Invoice, Ledger, Parties",
+  "start_url": "./business-manager.html",
+  "display": "standalone",
+  "background_color": "#0d0f14",
+  "theme_color": "#f0a500",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "New Invoice",
+      "short_name": "Invoice",
+      "description": "Create a new invoice",
+      "url": "./business-manager.html#invoices"
+    },
+    {
+      "name": "Parties",
+      "short_name": "Parties",
+      "description": "View all parties",
+      "url": "./business-manager.html#parties"
+    }
+  ]
+}
